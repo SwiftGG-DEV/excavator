@@ -1,0 +1,59 @@
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <!-- load javascript: jQuery 1.9.1 - http://jquery.com/ -->
+    <script type="text/javascript" src="../js/jquery-1.9.1.min.js"></script>
+
+    <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap/bootstrap.css"></link>
+
+    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <script type="text/javascript" src="../js/bootstrap/bootstrap.js"></script>
+
+    <!-- load stylesheets: internal -->
+    <link rel="stylesheet" type="text/css" href="../css/global.css"></link>
+    <link rel="stylesheet" type="text/css" href="../css/main.css"></link>
+</head>
+
+<body>
+    <div id="main-outer">
+        <div id="main-inner" class="container">
+
+            <div class="logo-item">
+                <center>
+                    <img src="../images/swift-gg.png" width="20%"/>
+                </center>
+            </div>
+
+            <div class="container-item">
+                <input type="text" class="form-control" placeholder="检测网址" aria-describedby="basic-addon2" id="check_exist_text">
+            </div>
+
+            <div class="container-item">
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"
+                        style="width: 0%" id="check_exist_progress">
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-item">
+                <div class="alert alert-info" role="alert" id="check_exist_tips">
+                    暂无结果
+                </div>
+            </div>
+
+            <div class="container-item">
+                <button type="button" class="btn btn-default" id="check_exist_button">重复检测</button>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- load javascript: unique html page javascript file -->
+    <script type="text/javascript" src="../js/main.js"></script>
+    <script type="text/javascript" src="../js/content.js"></script>
+</body>
+
+</html>

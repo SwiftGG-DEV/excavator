@@ -1,0 +1,29 @@
+/*
+** file: css/main.css
+** description: custom styling for "html/main.html" file
+*/
+
+div#main-outer {
+    width: 300px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+div#main-inner {
+    padding: 8px;
+    margin: 5px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+    
+.logo-item {
+    margin-bottom: 20px;
+}
+
+.container-item {
+    margin-top: 5px;
+    align: center;
+}

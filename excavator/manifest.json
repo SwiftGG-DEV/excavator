@@ -1,0 +1,22 @@
+{
+    "name": "gg-excavator",
+    "version": "0.1.0",
+    "manifest_version": 2,
+    "description": "SwiftGG 原文检测和加池工具",
+    "icons": {
+        "19": "images/icon_19.png",
+        "38": "images/icon_38.png",
+        "128": "images/icon_128.png"
+    },
+    "browser_action": {
+        "default_title": "browser_action: default_title",
+        "default_icon": {
+            "19": "images/icon_19.png",
+            "38": "images/icon_38.png"
+        },
+        "default_popup": "html/main.html"
+    },
+    "options_page": "html/options.html",
+    "homepage_url": "http://yourdomainhere.com/",
+    "permissions": ["tabs"]
+}
